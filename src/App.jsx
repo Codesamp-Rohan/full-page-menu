@@ -19,11 +19,11 @@ function App() {
               close
             </button>
           </nav>
-          <div className="flex flex-col text-[4rem] gap-[2rem]">
+          <div className="flex flex-col text-[2rem] md:text-[4rem] gap-[2rem]">
             <div className="h-[60px] overflow-hidden relative">
               <a
                 className={`absolute ease-in-out duration-200 delay-[950ms] translate-y-[-50%] ${
-                  openMenu ? `top-[50%]` : `top-[-50%]`
+                  openMenu ? `top-[50%]` : `top-[-80%]`
                 }`}
                 href="#">
                 MENU ONE
@@ -32,7 +32,7 @@ function App() {
             <div className="h-[60px] overflow-hidden relative">
               <a
                 className={`absolute ease-in-out duration-200 delay-[950ms] translate-y-[-50%] ${
-                  openMenu ? `top-[50%]` : `top-[-50%]`
+                  openMenu ? `top-[50%]` : `top-[-80%]`
                 }`}
                 href="#">
                 MENU 2
@@ -41,7 +41,7 @@ function App() {
             <div className="h-[60px] overflow-hidden relative">
               <a
                 className={`absolute ease-in-out duration-200 delay-[950ms] translate-y-[-50%] ${
-                  openMenu ? `top-[50%]` : `top-[-50%]`
+                  openMenu ? `top-[50%]` : `top-[-80%]`
                 }`}
                 href="#">
                 MENU THREE

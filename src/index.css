@@ -17,15 +17,15 @@
 }
 @font-face {
   font-family: nippo1;
-  src: url(./Fonts/font1.woff2);
+  src: url(../Fonts/font1.woff2);
 }
 @font-face {
   font-family: nippo2;
-  src: url(./Fonts/font2.woff2);
+  src: url(../Fonts/font2.woff2);
 }
 @font-face {
   font-family: nippo3;
-  src: url(./Fonts/font3.woff2);
+  src: url(../Fonts/font3.woff2);
 }
 .nippo1 {
   font-family: nippo1;
