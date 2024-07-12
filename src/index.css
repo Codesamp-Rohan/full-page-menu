@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: nippo1;
+  src: url(./Fonts/font1.woff2);
+}
+@font-face {
+  font-family: nippo2;
+  src: url(./Fonts/font2.woff2);
+}
+@font-face {
+  font-family: nippo3;
+  src: url(./Fonts/font3.woff2);
+}
+.nippo1 {
+  font-family: nippo1;
+}
+.nippo2 {
+  font-family: nippo2;
+}
+.nippo3 {
+  font-family: nippo3;
+}
